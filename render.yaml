@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: django-app
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: app.settings
+      - key: SECRET_KEY
+        value: your-secret-key
+      - key: DEBUG
+        value: "False" # Change to 'False' in production
