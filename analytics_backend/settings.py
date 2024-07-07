@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-62rfa_m$x=0p_+qgfk-z)!sm$tta&4(nvb2jwlr4t!unf7!$b0
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'https://analytics-backend-odh4.onrender.com'
+    'analytics-backend-odh4.onrender.com'
 ]
 
 
