@@ -155,7 +155,7 @@ JSON
 
 - For a visual explanation of this project, you can view a video walkthrough here: https://www.loom.com/share/5d9f22d342d04422b7387ccd65d783c8?sid=04541838-ed7f-4207-a9d9-7c07c6c54e60
 
-# cost of running your system in production 24x7 for 30 days, assuming one file upload and 100 queries a day.
+## cost of running your system in production 24x7 for 30 days, assuming one file upload and 100 queries a day.
 
 - If you want a super reliable system, you can turn to AWS.
   If you take a micro server for the application, rds for the database and additional disk space for it, add S3 Storage, along with some traffic fees, you can get $25-30. And you will have to optimize the code a bit for this.
